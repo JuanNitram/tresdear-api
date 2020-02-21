@@ -1,5 +1,5 @@
 @component('mail::message')
-<p style="position: relative;margin-bottom: 20px;align-items:center;"><img src="{{ env('APP_URL') . '/storage/logo.png' }}" style="position: relative; left: 42%; width: 15%;" alt=""></p>
+{{--<p style="position: relative;margin-bottom: 20px;align-items:center;"><img src="{{ env('APP_URL') . '/storage/logo.png' }}" style="position: relative; left: 42%; width: 15%;" alt=""></p>--}}
 # ¡Se han puesto en contacto con nostros!
 <table class="action" width="100%" cellpadding="0" cellspacing="0">
 <tr>

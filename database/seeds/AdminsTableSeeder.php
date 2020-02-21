@@ -15,8 +15,8 @@ class AdminsTableSeeder extends Seeder
         DB::table('admins')->insert([
            [
             'name' => 'Support',
-            'email' => 'support@sideraldev.com',
-            'password' => '$2y$10$HK3oTqZJ8Uot.v7mHViA.OwBNuAFYwgw4/0pfEkmvUFlM7q38fZMy', //elbergalarga xD
+            'email' => 'support@tresdear.com',
+            'password' => bcrypt('password'),
             'types_id' => 1,
             'active' => 1,
             'remember_token' => NULL,
