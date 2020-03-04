@@ -38,7 +38,7 @@ class ContactController extends BaseController
         $body = json_decode((string)$response->getBody());
 
         if(!$validator->fails() && $body->success){
-            Mail::to('hola@tresdear.es')->send(new ContactForm($request->data));
+            Mail::to('hola@tresdear.com')->send(new ContactForm($request->data));
             return $this->sendResponse([], 'Mail sended successfully.');
         }
 

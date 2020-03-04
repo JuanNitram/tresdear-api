@@ -29,7 +29,7 @@ class ContactForm extends Mailable
      */
     public function build()
     {
-        return $this->from('noreply@tresdear.es')
+        return $this->from('noreply@tresdear.com')
             ->subject('¡Nuevo mensaje de contacto recibido!')
             ->with(['data' => $this->data])
             ->markdown('mails.contactForm');
